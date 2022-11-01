@@ -5,7 +5,9 @@
     margin: 0;
     padding: 0;
 }
-
+body{
+    width:100%;
+}
 header{
     background-color: #008000;
     margin: 5px;
@@ -34,14 +36,33 @@ h1{
 main{
     background-color: whitesmoke;
     min-height: 450px;
+    margin: 5px;
     font-family: 'Montserrat', sans-serif;
-    text-align: center;
 
     display: flex;
     align-items: center;
     justify-content: center;
 }
+aside{
+    margin: 5px 5px 5px 0px;
+    text-align: center;
+    width: 200px;
+    padding: 10px;
+    background-color: rgb(207, 207, 207);
+    min-height: 100v;
 
+    border-radius: 10px;
+    box-shadow: 4px 4px 0px 0px grey;
+    border: solid;
+    border-color: black;
+}
+h3{
+
+}
+section{
+    text-align: center;
+    width: 100%;
+}
 #welcome{
     font-size: 35pt;
 }
