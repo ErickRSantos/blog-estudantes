@@ -40,32 +40,38 @@ main{
     font-family: 'Montserrat', sans-serif;
 
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
 aside{
     margin: 5px 5px 5px 0px;
     text-align: center;
-    width: 200px;
+    min-width: 200px;
     padding: 10px;
     background-color: rgb(207, 207, 207);
-    min-height: 100vh;
+    min-height: 450px;
 
     border-radius: 10px;
     box-shadow: 4px 4px 0px 0px grey;
     border: solid;
     border-color: black;
 }
-h3{
-
-}
 section{
-    text-align: center;
-    width: 100%;
+    display: block;
+
+    width: 90%;
+    min-width: 450px;
+    height: max-content;
+    margin: 8px 0px 5px 5px;
+    padding: 15px;
+
+    border-radius: 10px;
+    box-shadow: 4px 4px 0px 0px grey;
+    border: solid;
+    border-color: black;
 }
-#welcome{
-    font-size: 35pt;
+h2{
+    font-size: 20pt;
 }
+
 footer{
     background-color: #4ea740;
     margin: 5px;
